@@ -20,6 +20,9 @@ As a result your map could look like this:
 
 From my understanding [BDD](https://en.wikipedia.org/wiki/Behavior-driven_development) features are made for the development process in the first place. So the regular workflow is define the feature, write a test and develop the code. After a while you end with a lot of features (and scenarios). To get an overview about what your software does you have to read all those features and make an map of them in your mind. That's why I wrote this script. It will generate the map for you. 
 
+##### Why Omnigraffle?
+I see this script as a kind of a prototype. Doing this with Omnigraffle allows one to edit the generated result. This way it's possible to make the map "nicer" or to add additional information. And because of Omnigraffles capabilities it's easy to convert the result in several other formats like pdf, png or Visio.
+
 ### modeling
 The default setup is to draw a box with four colums of use case bubbles. Close to the border you will see the features while all the related scenarios are placed inside. Note that the feature bubbles are surrounded by thicker lines.
 ![sample feature map](doc/img/featuremap_feature_only_sample.png)
@@ -33,5 +36,5 @@ To set the domain name you have to follow a different approach. Add a line insid
 ### colored bubbles
 White backgrounds are boring. So I thought it would be nice to express the current status of a feature or scenario by changing the background. So the script is looking for status tags starting with @s- (e.g. @s-backlog) above a feature or scenario name and changes the background color accordingly. If you check the head of th script you will find some properties to adapt the script to your actual wording. You might also change the colors and the tag syntax.
 ![sample feature map](doc/img/sample_map_status.png)
-In this example I've set the status for features only but of course it's possible to set the staus for scenarios too.
+In this example I've set the status for features only but of course it's possible to set the status for scenarios too.
 
