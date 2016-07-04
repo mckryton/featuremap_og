@@ -1,4 +1,4 @@
-@d-featuremap
+@d-featuremap @s-available
 Feature: feature reader - read status
 
  

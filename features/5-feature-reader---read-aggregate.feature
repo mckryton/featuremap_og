@@ -1,5 +1,5 @@
-@d-featuremap
-Feature: feature reader - recognize assigned aggregate
+@d-featuremap @s-available
+Feature: feature reader - read aggregate
 
  
   @FEM-1 @OPEN
